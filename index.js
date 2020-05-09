@@ -1,13 +1,17 @@
 // This is a JavaScript code
+var pageTitle = document.getElementById('page-title');
+var button1 = document.getElementById('btn1');
+var button2 = document.getElementById('btn2');
+var button3 = document.getElementById('btn3');
 
-document.getElementById('btn1').addEventListener('click',() => {
-    document.getElementById('page-title').innerHTML = "Hello World";
+button1.addEventListener('click',() => {
+    pageTitle.innerHTML = "Hello World";
 })
 
-document.getElementById('btn2').addEventListener('click',() => {
-    document.getElementById('page-title').innerHTML = "Sample Title";
+button2.addEventListener('click',() => {
+    pageTitle.innerHTML = "Sample Title";
 })
 
-document.getElementById('btn3').addEventListener('click',() => {
-    document.getElementById('page-title').innerHTML = "Demo Repository";
+button3.addEventListener('click',() => {
+    pageTitle.innerHTML = "Demo Repository";
 })
