@@ -1,3 +1,14 @@
 // This is a JavaScript code
+var pageTitle = document.getElementById('page-title');
 
-// var pageTitle = document.getElementById('page-title').innerHTML = "Hello World";
+function helloWorld() {
+    pageTitle.innerHTML = 'Hello World';
+}
+
+function sampleTitle() {
+    pageTitle.innerHTML = 'Sample Title';
+}
+
+function demoRepository() {
+    pageTitle.innerHTML = 'Demo Repository';
+}
